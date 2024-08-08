@@ -37,3 +37,9 @@ function handleKeyPress(event) {
         getAnswer();
     }
 }
+
+function handleKeyPress(event) {
+    if (event.key === 'Enter') {
+        getAnswer();
+    }
+}
