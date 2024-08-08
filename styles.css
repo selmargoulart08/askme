@@ -10,10 +10,17 @@ body {
 
 .container {
     text-align: center;
-    background: white;
+    color: transparent;
+    background: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url("images/imagem.png");
+    background-position:center;
+    position: relative;
+    border: 1px solid #000;
+    margin-top: 50px; /* Espaço para o título */
+    background-repeat: no-repeat;
 }
 
 input {
@@ -40,5 +47,9 @@ button:hover {
 p {
     margin-top: 20px;
     font-size: 1.2em;
-    color: #333;
+    color: #eeeee5;
+}
+h2 {
+    position: top;
+    text-align: center;
 }
